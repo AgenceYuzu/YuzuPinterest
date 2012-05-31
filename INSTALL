@@ -1,0 +1,61 @@
+Yuzu Pinterest extension INSTALL
+
+Introduction
+============
+
+This extension provides the integration of Pinterest stream on
+eZ Publish software.
+Read the README file for more information.
+
+
+Requirements
+============
+
+eZ Publish version:
+
+This extension has been tested on eZ Publish version 4.x
+Can be useable on earlier versions of eZ Publish
+
+Pinterest:
+
+You must create an account on pinterest.com and pin some images
+
+
+
+Installing Yuzu Pinterest extension
+================================
+
+1. Unzip the files in your 'extension' directory of your eZ Publish site
+
+2. Log into your administration interface
+
+3. Activate yuzupinterest extension
+
+4. Clear the cache
+
+
+
+Integrate Pinterest stream into your site
+==============================================
+
+Widget
+-----------------------
+
+1. Edit the template  where you want to insert your widget.
+
+2. Paste the following code
+{include uri='design:yuzupinterest.tpl' title='Latest pin' image_limit=1 account='agenceyuzu' legend=1}
+
+title: Title for your widget
+image_limit: specify the number of image to display
+account: your pinterest account name
+legend: 0 or 1. 0 hide image legend, 1 display image legend
+
+3. Save the file and clear caches
+
+
+Clear the cache
+===============
+
+To be sure all your changes take effect, you should clear the cache. This can
+be done from within the administration interface in the "Setup" top menu.

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<software>
+    <metadata>
+        <name>Yuzu Pinterest</name>
+        <version>1.0</version>
+        <copyright>Copyright (C) 2012 Agence Yuzu</copyright>
+        <license>GNU General Public License v2</license>
+        <info_url></info_url>
+
+        <software>
+            <uses>
+                <name>eZ Feed Parse</name>
+                <license>GNU General Public License v2.0</license>
+                <copyright>Copyright (C) 2009 Damien POBEL</copyright>
+                <info_url>http://projects.ez.no/ezfeedparse</info_url>
+                <version>0.2</version>
+            </uses>
+        </software>
+    </metadata>
+</software>

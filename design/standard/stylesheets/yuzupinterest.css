@@ -1,0 +1,62 @@
+div#yuzupinterest{
+	background-color:#f1f0ec;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+div#yuzupinterest h4{
+	padding-left:0.75em;
+}
+ul#yuzupinterest-widget{
+	list-style-type: none;
+}
+
+ul#yuzupinterest-widget li.yuzupinterest-pin, ul#yuzupinterest-widget li.yuzupinterest-follow-me{
+	position: relative;
+	margin: 0px 0px 10px 0px;
+	list-style-type: none;
+	list-style-image: none;
+	background: none;
+	text-align: center;
+}
+
+ul#yuzupinterest-widget li.yuzupinterest-pin div.yuzupinterest-image{
+	background-color: #FFFFFF;
+	box-shadow: 0 1px 2px rgba(34, 25, 25, 0.4);
+	font-size: 11px;
+	text-align: center;
+	margin: auto;
+	max-width: 100%;
+	width: 150px;
+}
+
+ul#yuzupinterest-widget li.yuzupinterest-pin div.yuzupinterest-image img{
+	width: 100%;
+	text-align: left;
+	margin: 0px;
+}
+
+ul#yuzupinterest-widget li.yuzupinterest-pin div.yuzupinterest-image a{
+	display: block;
+	background: none;
+	padding: 15px 15px 13px 15px;
+	margin: 0px;
+}
+
+ul#yuzupinterest-widget li.yuzupinterest-pin span{
+	display: block;
+	padding: 0px;
+	margin: 0px;
+	text-align: left;
+	line-height: 16px;
+	background-color: #F2F0F0;
+}
+
+ul#yuzupinterest-widget li.yuzupinterest-pin span p{
+	padding: 4px;
+	margin: 0px;
+	text-align: center;
+	line-height: 14px;
+	background-color: #F2F0F0;
+	color: #333;
+}
