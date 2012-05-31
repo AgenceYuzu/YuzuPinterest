@@ -44,9 +44,10 @@ Widget
 1. Edit the template  where you want to insert your widget.
 
 2. Paste the following code
-{include uri='design:yuzupinterest.tpl' title='Latest pin' image_limit=1 account='agenceyuzu' legend=1}
+{include uri='design:yuzupinterest.tpl' title='Latest pin' board='yuzu' image_limit=1 account='agenceyuzu' legend=1}
 
 title: Title for your widget
+board: limit to a specific pinterest board. If not set, all images will be fetched
 image_limit: specify the number of image to display
 account: your pinterest account name
 legend: 0 or 1. 0 hide image legend, 1 display image legend
